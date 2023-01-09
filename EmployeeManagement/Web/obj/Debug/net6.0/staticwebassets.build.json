@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RcBmUq6Ye5zhPu1X9+EGFMvQGMRzR5g1WlRtJjjyzLw=",
+  "Hash": "zXf/mB0Mas4eZSmEyB3yuHWCKUM1cOtNWLU9ge6cr2I=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\tadam\\source\\repos\\2023\\Blazor\\EmployeeManagement\\EmployeeManagement\\Web\\wwwroot\\images\\personStock.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tadam\\source\\repos\\2023\\Blazor\\EmployeeManagement\\EmployeeManagement\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "images/personStock.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\personStock.jpg"
     }
   ]
 }
