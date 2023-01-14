@@ -1,4 +1,6 @@
 using Api.Data;
+using Api.Data.Interfaces;
+using Api.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+// Register
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 // Register Database
 builder.Services.AddDbContext<AppDbContext>(options =>
